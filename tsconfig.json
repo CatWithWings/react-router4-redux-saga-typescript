@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": [
+            "dom",
+            "es6",
+            "es7",
+            "dom.iterable",
+            "scripthost"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "scripts",
+        "webpack",
+      ],
+    "include": [
+        "./app/**/*"
+    ]
+}
